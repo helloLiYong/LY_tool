@@ -57,13 +57,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72CC184D3D0A8BC8B2067937 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7B9CC4D3D7E47647783E19BD /* LY_tool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LY_tool.podspec; path = ../LY_tool.podspec; sourceTree = "<group>"; };
+		72CC184D3D0A8BC8B2067937 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7B9CC4D3D7E47647783E19BD /* LY_tool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LY_tool.podspec; path = ../LY_tool.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE3F5FAD0BABEBBD7E230D31 /* Pods-LY_tool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LY_tool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LY_tool_Example/Pods-LY_tool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B964236B170AFBA590F8E420 /* Pods-LY_tool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LY_tool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LY_tool_Example/Pods-LY_tool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D42716F8356F7469F231B8BB /* Pods_LY_tool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LY_tool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3CCACACC02DC20296EC6340 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E3CCACACC02DC20296EC6340 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E4E8F8CFAD634496CCB25A25 /* Pods-LY_tool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LY_tool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LY_tool_Tests/Pods-LY_tool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E64FF0E2006D09B87770CC8D /* Pods-LY_tool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LY_tool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LY_tool_Tests/Pods-LY_tool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED7AD7B0669D39F4543F2234 /* Pods_LY_tool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LY_tool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -440,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

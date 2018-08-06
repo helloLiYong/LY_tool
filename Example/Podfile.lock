@@ -1,0 +1,22 @@
+PODS:
+  - LY_tool (0.0.3):
+    - LY_tool/LY_Category (= 0.0.3)
+    - LY_tool/LY_CustomView (= 0.0.3)
+    - LY_tool/LY_DeviceTool (= 0.0.3)
+  - LY_tool/LY_Category (0.0.3)
+  - LY_tool/LY_CustomView (0.0.3)
+  - LY_tool/LY_DeviceTool (0.0.3)
+
+DEPENDENCIES:
+  - LY_tool (from `../`)
+
+EXTERNAL SOURCES:
+  LY_tool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LY_tool: 5220d37d881ae8e1f4bc0f5a21c8b6d53f60bb8c
+
+PODFILE CHECKSUM: 2dcb600660d1b8ea32dd16f60414c9153c8266a6
+
+COCOAPODS: 1.5.0

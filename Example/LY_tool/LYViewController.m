@@ -7,7 +7,7 @@
 //
 
 #import "LYViewController.h"
-
+#import "lY_DeviceTool.h"
 @interface LYViewController ()
 
 @end
@@ -17,6 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    NSLog(@"%@",[lY_DeviceTool getUUID]) ;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
