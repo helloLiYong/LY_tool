@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LY_tool_Example' do
+  pod 'LY_tool', :path => '../'
+
+  target 'LY_tool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
